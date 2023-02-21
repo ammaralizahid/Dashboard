@@ -1,0 +1,7 @@
+.form-control.is-valid, .was-validated .form-control:valid{
+border-color: black !important;
+background-image:none !important;
+}
+input:focus{
+    box-shadow: none !important;
+    }

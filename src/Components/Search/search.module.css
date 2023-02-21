@@ -1,0 +1,22 @@
+.input{
+    height: 3rem;
+    width: 23.5rem;
+    background-color: #F4F4F4 !important;;
+    border-radius: 10px !important;
+    opacity: 0.8;
+    border:2px solid #E4E4E4;
+font-family: cursive;
+font-size: 100%;
+font-weight: 900;
+color:#11142D;
+margin-top: 0.8rem;
+padding-left: 2.5rem !important;
+}
+.searchIcon{
+    margin-right: -2rem !important;
+    margin-top: 1.7rem !important;
+}
+.input :global(.form-control:focus){
+    border-color:rgba(255, 202, 66, 0.9) !important;
+    box-shadow: rgba(255, 202, 66, 0.9) !important;
+}

@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+.prominentTxt{
+    color:black;
+    font-weight: 900;
+    font-size: 37px;
+    font-family: cursive;
+}
+
+.txt{
+    color:black;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: cursive;
+}
+.forgetPass{
+cursor: pointer;
+font-family: cursive;
+}
+.forgetPass:hover{
+cursor: pointer;
+font-family: cursive;
+color: #475BE8;
+animation: pop-up 1s ease-in-out infinite;
+
+}
+
+/* waving animation */
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(1.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(1.0deg) }
+     30% { transform: rotate(1.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+/* alarm animation */
+
+  .alarm {
+    animation: pop-up 1s ease-in-out infinite;
+  }
+  
+  @keyframes pop-up {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  } 
+ 
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-10px); }
+    20% { transform: translateX(10px); }
+    30% { transform: translateX(-10px); }
+    40% { transform: translateX(10px); }
+    50% { transform: translateX(-10px); }
+    60% { transform: translateX(10px); }
+    70% { transform: translateX(-10px); }
+    80% { transform: translateX(10px); }
+    90% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .shake {
+    animation: shake 0.5s;
+  }

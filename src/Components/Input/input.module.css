@@ -1,0 +1,32 @@
+.input{
+    height: 3rem;
+    width: 23.5rem;
+    background-color: #FCFCFC;
+    border-radius: 10px;
+    opacity: 0.8;
+    border:2px solid #E4E4E4;
+font-family: cursive;
+font-size: 100%;
+font-weight: 900;
+color:#11142D;
+margin-bottom: 1rem;
+}
+
+  .label{
+    font-family: cursive !important;
+font-size: 100%;
+font-weight: 900;
+color:#11142D !important;
+  }
+
+
+  /* .validation :global(.form-control.is-valid):focus,
+.validation :global(.was-validated) :global(.form-control:valid):focus{
+    border-color: none;
+    box-shadow: rgba(255, 202, 66, 0.9) !important;;
+  } */
+
+   .validation :global(.form-control.is-valid):focus{
+    border-color: none;
+    box-shadow: rgba(255, 202, 66, 0.9) !important;;
+   }

@@ -12,11 +12,11 @@ const [hover,setHover]=useState(false)
     );
 
   return (
-<div style={{paddingLeft:'0.7rem'}}>
+<div className={style.mainDiv}>
 
 <Row className={`flex-column text-center py-3 ${style.sidebar}`}>
 {SideBarData.map((i)=>(
-  <Col className={`py-3  ${style.sideBarContent}`} onMouseOver={() => setHover(true)} onMouseOut={() => setHover(false)}>
+  <Col xs="12" className={`py-3  ${style.sideBarContent}`} onMouseOver={() => setHover(true)} onMouseOut={() => setHover(false)}>
 {
   hover?
  <> {i.iconHover}</>:

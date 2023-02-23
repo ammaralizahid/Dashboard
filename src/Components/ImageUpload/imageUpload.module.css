@@ -12,12 +12,17 @@
     /* margin-top:-0.6rem; */
 
 }
-
+.avatar{
+    margin-top:1rem;
+}
 @media screen and (width > 1500px) {
     .img {
         transition: 0.2s ease;
         border-radius: 50%;
         cursor: pointer;
         margin-top:-0.6rem;
+    }
+    .avatar{
+        margin-top:1rem;
     }
   }

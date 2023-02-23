@@ -1,5 +1,6 @@
 .sidebar{
-    width: 15%;
+    width: 15rem;
+    padding: 1rem;
 }
 
 .sideBarContent{
@@ -13,4 +14,8 @@ cursor: pointer;
 font-family: cursive;
 color: #FCFCFC;
 }
-
+.mainDiv{
+    padding-left: 0.7rem;
+    z-index: 1000;
+    position: relative;
+}

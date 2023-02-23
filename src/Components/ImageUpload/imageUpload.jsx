@@ -15,7 +15,7 @@ const handleFileChange = (event) => {
   return (
 <>
 
-<Form.Group controlId="formFile" className='mt-3'>
+<Form.Group controlId="formFile" className={style.avatar}>
         <Form.Label>{label}</Form.Label>
         <label htmlFor="fileInput">
             {
@@ -33,7 +33,7 @@ const handleFileChange = (event) => {
           alt="profile" style={{cursor:'pointer'}} className='mb-2'/>
             }
         </label>
-        <Form.Control type="file" id="fileInput" className={style.notShowChooseFile} onChange={handleFileChange}/>
+        <Form.Control type="file" id="fileInput" className={`d-none ${style.notShowChooseFile}`} onChange={handleFileChange}/>
       </Form.Group>
     
       

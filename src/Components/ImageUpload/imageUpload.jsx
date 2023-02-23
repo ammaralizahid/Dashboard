@@ -24,11 +24,12 @@ const handleFileChange = (event) => {
   src={URL.createObjectURL(image)}
   alt="Selected file preview"
   height={`${profile ? `35` : `100`}`}
-  style={{ transition: 'height 0.2s ease',borderRadius:'50%',cursor:'pointer',  marginTop:profile? '-0.6rem':"" }}
-  onMouseOver={(event) => event.target.style.height = profile ? `80px` :`150px`}
-  onMouseOut={(event) => event.target.style.height = profile ? `60px` :`100px`}
+  width={`${profile ? `35` : `100`}`}
+ className={style.img}
+  onMouseOver={(event) => event.target.style.height = event.target.style.width = profile ? `80px` :`150px`}
+  onMouseOut={(event) => event.target.style.height = event.target.style.width = profile ? `60px` :`100px`}
 />:
-          <img src={profile? ProfileIcon: ImageIcon}   height={`${profile ? `35` : `100`}`}
+          <img src={profile? ProfileIcon: ImageIcon}   height={`${profile ? `35` : `100`}`}  width={`${profile ? `35` : `100`}`}
           alt="profile" style={{cursor:'pointer'}} className='mb-2'/>
             }
         </label>

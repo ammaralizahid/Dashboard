@@ -11,7 +11,7 @@ export default function Navbar() {
     <div className={style.loader}>
 </div>
     </Col>
-    <Col lg="3" xl="3" md="4" sm="4" xs="6">
+    <Col lg="3" xl="3" md="4" sm="4" xs="5">
         <Search placeholder={'Search anything'}/>
     </Col>
     <Col lg="5" xl="5" md="4" sm="4" xs="1">
@@ -19,7 +19,7 @@ export default function Navbar() {
     <Col lg="1" xl="1" md="1" sm="1" xs="1">
         <img src={BellIcon} alt='notifications' height='20' className='mt-4'></img>
     </Col>
-    <Col lg="1" xl="1" md="1" sm="1" xs="1">
+    <Col lg="1" xl="1" md="1" sm="1" xs="2">
 
         <ImageUpload profile/>
     </Col>

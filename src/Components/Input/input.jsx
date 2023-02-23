@@ -6,8 +6,8 @@ export default function input({label,placeholder,required, pattern}) {
 <>
 
 <Form.Label className={style.label}>{label}</Form.Label>
-<InputGroup >
-        <Form.Control className={style.input+' '+style.validation}
+<InputGroup className={style.border}>
+        <Form.Control className={style.input}
           placeholder={placeholder}
           required={required}
           pattern={pattern}

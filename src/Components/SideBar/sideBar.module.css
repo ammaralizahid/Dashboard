@@ -1,4 +1,16 @@
 .sidebar{
-    width: 250px;
-    background-color: aqua;
+    width: 15%;
 }
+
+.sideBarContent{
+font-family: cursive !important;
+color: #11142D;
+}
+.sideBarContent:hover{
+background: rgba(255, 202, 66, 0.9);
+border-radius: 12px;
+cursor: pointer;
+font-family: cursive;
+color: #FCFCFC;
+}
+

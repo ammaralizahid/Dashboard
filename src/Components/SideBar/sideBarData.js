@@ -1,29 +1,30 @@
-
+import Dashboard from '../../assets/svg/Dashboard.svg'
+import DashboardWhite from '../../assets/svg/DashboardWhite.svg'
 const SideBarData = [
     {
       identifier: "Dashboard",
       title: "Dashboard",
       path: "/",
-      icon: <img src={dashboard} alt="dashboard" />,
-      activeIcon: <img src={activeDashboard} alt="dashboard" />,
+      icon: <img src={Dashboard} alt="dashboard" />,
+      iconHover: <img src={DashboardWhite} alt="dashboardwhite" />,
+      activeIcon: <img src={Dashboard} alt="dashboard" />,
     },
     {
       identifier: "Inventory",
       title: "Inventory",
       path: "/inventory",
-      icon: <img src={inventory} alt="inventory" />,
-      activeIcon: <img src={activeInventory} alt="inventory" />,
-      iconClose: <FontAwesomeIcon icon={faChevronDown} />,
-      iconOpen: <FontAwesomeIcon icon={faChevronUp} />,
+      icon: <img src={Dashboard} alt="inventory" />,
+      activeIcon: <img src={Dashboard} alt="inventory" />,
+    
       subNav: [
         {
           subnavigation: true,
           identifier: "AddInventory",
           title: "Add Inventory",
           path: "/inventory/add",
-          icon: <img width="20px" height="20px" src={addIcon} alt="addIcon" />,
+          icon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
           activeIcon: (
-            <img width="20px" height="20px" src={activeAddIcon} alt="addIcon" />
+            <img width="20px" height="20px" src={Dashboard} alt="addIcon" />
           ),
         },
         {
@@ -31,13 +32,13 @@ const SideBarData = [
           identifier: "MyList",
           title: "My List",
           path: "/inventory",
-          icon: <img width="20px" height="20px" src={list} alt="list" />,
+          icon: <img width="20px" height="20px" src={Dashboard} alt="list" />,
           activeIcon: (
-            <img width="20px" height="20px" src={activeList} alt="list" />
+            <img width="20px" height="20px" src={Dashboard} alt="list" />
           ),
         },
       ],
     },
   ]
 
-export default SideBarData
+  export default SideBarData;

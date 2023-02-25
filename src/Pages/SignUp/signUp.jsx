@@ -15,12 +15,11 @@ export default function SignUp() {
         event.stopPropagation();
       }
       setValidated(true);
-      setValidated(true);
       setTimeout(() => setValidated(false), 1000);
     };
   return (
 <>
-<div className={`pt-2 ${validated ? style.shake : ""}`}>
+<div className={`pt-2 ${validated ? 'shake' : ""}`}>
    
 <Row className='py-5'>
 <Col xs="2" sm="2" md="2" lg="2" xl="2">
@@ -83,7 +82,7 @@ export default function SignUp() {
 <div className='d-flex justify-content-evenly pb-3'>
     <span>Already have an account?</span>
  <Link to={'/sign-in'}>
-    <span className={style.forgetPass}>Sign In.</span>
+    <span className={style.forgetPass}>Sign In</span>
  </Link>
 </div>
     </Col>

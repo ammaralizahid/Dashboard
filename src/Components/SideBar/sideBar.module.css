@@ -1,4 +1,21 @@
 .sidebar{
-    width: 250px;
-    background-color: aqua;
+    width: 15rem;
+    padding: 1rem;
+}
+
+.sideBarContent{
+font-family: cursive !important;
+color: #11142D;
+}
+.sideBarContent:hover{
+background: rgba(255, 202, 66, 0.9);
+border-radius: 12px;
+cursor: pointer;
+font-family: cursive;
+color: #FCFCFC;
+}
+.mainDiv{
+    padding-left: 0.7rem;
+    z-index: 1000;
+    position: relative;
 }

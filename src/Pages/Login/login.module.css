@@ -19,13 +19,15 @@
 .forgetPass{
 cursor: pointer;
 font-family: cursive;
+text-decoration: none !important;
+
 }
 .forgetPass:hover{
 cursor: pointer;
 font-family: cursive;
 color: #475BE8;
 animation: pop-up 1s ease-in-out infinite;
-
+text-decoration: none !important;
 }
 
 .wave {

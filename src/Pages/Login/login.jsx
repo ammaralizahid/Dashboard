@@ -52,8 +52,8 @@ export default function Login() {
       
 <div className='d-flex justify-content-between pb-3'>
     <span>Don't have an account?</span>
- <Link to={'/sign-up'}>
-    <span className={style.forgetPass}>Sign Up for free.</span>
+ <Link to={'/sign-up'} className={style.forgetPass}>
+    <span >Sign Up for free.</span>
  </Link>
 </div>
 </Col>

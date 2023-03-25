@@ -1,21 +1,23 @@
 .sidebar{
     width: 15rem;
     padding: 1rem;
+    box-shadow: 3px 0px 6px rgb(0 0 0 / 7%);
 }
 
 .sideBarContent{
-font-family: cursive !important;
-color: #11142D;
+    font-family: cursive !important;
+    color: #11142D;
 }
 .sideBarContent:hover{
-background: rgba(255, 202, 66, 0.9);
-border-radius: 12px;
-cursor: pointer;
-font-family: cursive;
-color: #FCFCFC;
+    background: rgba(255, 202, 66, 0.9);
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: cursive;
+    color: #FCFCFC;
 }
 .mainDiv{
     padding-left: 0.7rem;
     z-index: 1000;
     position: relative;
+    margin-top: 1px;
 }

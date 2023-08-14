@@ -8,16 +8,21 @@ import style from './login.module.css'
 export default function Login() {
 
     const [validated, setValidated] = useState(false);
-  
-    const handleSignIn = (event) => {
-      const form = event.currentTarget;
-      if (form.checkValidity() === false) {
-        event.preventDefault();
-        event.stopPropagation();
+
+    const handleSignIn = async(event) => {
+      try {
+        const form = event.currentTarget;
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        setValidated(true);
+        setTimeout(() => setValidated(false), 1000);
+       } catch (error) {
+        console.log(error);
       }
-      setValidated(true);
-      setTimeout(() => setValidated(false), 1000);
     };
+    
   return (
 <>
 <div className='pt-5'>
@@ -61,8 +66,8 @@ export default function Login() {
 <Link to={'/dashboard'}>
 
         <Button label={'Sign In'} onClick={handleSignIn}></Button>
-        <Button label={'Sign In With Google'} google variant onClick={handleSignIn}></Button>
       </Link>
+        <Button label={'Sign In With Google'} google variant onClick={handleSignIn}></Button>
 <div className='d-flex justify-content-between pb-3'>
     <span>Don't have an account?</span>
  <Link to={'/sign-up'} className={style.forgetPass}>

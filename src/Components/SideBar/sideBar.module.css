@@ -7,13 +7,15 @@
 .sideBarContent{
     font-family: cursive !important;
     color: #11142D;
+    text-decoration: none !important;
 }
 .sideBarContent:hover{
-    background: rgba(255, 202, 66, 0.9);
+    background: rgb(204, 204, 255);
     border-radius: 12px;
     cursor: pointer;
     font-family: cursive;
-    color: #FCFCFC;
+    color: rgba(129, 30, 400, 7);
+    text-decoration: none !important;
 }
 .mainDiv{
     padding-left: 0.7rem;

@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from '../../Components/NavBar/navbar'
 import SideBar from '../../Components/SideBar/sideBar'
-export default function Dashboard() {
+import { Outlet } from 'react-router-dom'
+export default function SideBarLayout() {
   return (
     <>
-    Dashboard
+    <Navbar/>
+    <SideBar/>
+    <Outlet/>
     </>
   )
 }

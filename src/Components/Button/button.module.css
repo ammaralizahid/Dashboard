@@ -1,29 +1,29 @@
 .btn{
     height: 3rem !important;
     width: 100% !important;
-    background-color: #FFCA42 !important;
+    background: linear-gradient(180deg, #a93bff 0%, #8834ff 100%) !important;
     border-radius: 10px !important;
     opacity: 0.9 !important;
-    border:1px solid #FFCA42 !important;
-font-family: cursive !important;
-font-size: 100% !important;
-font-weight: 900 !important;
-color: #FCFCFC !important;
-margin-bottom: 1rem;
+    border:1px solid #CCCCFF !important;
+    font-family: cursive !important;
+    font-size: 100% !important;
+    font-weight: 900 !important;
+    color: #FCFCFC !important;
+    margin-bottom: 1rem;
 }
 .btn:hover{
     height: 3rem !important;
     width: 100% !important;
-    background-color: #FFCA42 !important;
+    background: linear-gradient(180deg, #a93bff 0%, #8834ff 100%) !important;
     border-radius: 10px !important;
     opacity: 1 !important;
-    border:3px solid #FFCA42 !important;
+    border:3px solid #CCCCFF !important;
     font-family: cursive !important;
-font-size: 100% !important;
-font-weight: 900 !important;
-color: #FCFCFC !important;
-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3) !important;
-cursor: pointer;
+    font-size: 100% !important;
+    font-weight: 900 !important;
+    color: #FCFCFC !important;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3) !important;
+    cursor: pointer;
 }
 
 .btnVariant{
@@ -32,24 +32,24 @@ cursor: pointer;
     background-color: #FCFCFC !important;
     border-radius: 10px !important;
     opacity: 0.9 !important;
-    border:1px solid #FFCA42 !important;
-font-family: cursive !important;
-font-size: 100% !important;
-font-weight: 900 !important;
-color: #11142D !important;
-margin-bottom: 1rem;
+    border:1px solid #CCCCFF !important;
+    font-family: cursive !important;
+    font-size: 100% !important;
+    font-weight: 900 !important;
+    color: #11142D !important;
+    margin-bottom: 1rem;
 }
 .btnVariant:hover{
     height: 3rem !important;
     width: 100% !important;
-    background-color: rgba(255, 202, 66, 0.9) !important;
+    background: rgb(204, 204, 255) !important;
     border-radius: 10px !important;
     opacity: 1 !important;
-    border:1px solid rgba(255, 202, 66, 0.9) !important;
+    border:1px solid #a93bff !important;
     font-family: cursive !important;
-font-size: 100% !important;
-font-weight: 900 !important;
-color: #FCFCFC !important;
-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3) !important;
-cursor: pointer;
+    font-size: 100% !important;
+    font-weight: 900 !important;
+    color: #FCFCFC !important;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3) !important;
+    cursor: pointer;
 }

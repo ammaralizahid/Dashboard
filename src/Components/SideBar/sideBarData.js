@@ -1,21 +1,24 @@
 import Dashboard from '../../assets/svg/Dashboard.svg'
-import DashboardWhite from '../../assets/svg/DashboardWhite.svg'
+import {DashboardPurple,InventoryIcon,
+  InventoryIconHover,ArrowUp,ArrowDown} from '../../assets/svg/svg'
 const SideBarData = [
     {
       identifier: "Dashboard",
       title: "Dashboard",
-      path: "/",
+      path: "/dashboard",
       icon: <img src={Dashboard} alt="dashboard" />,
-      iconHover: <img src={DashboardWhite} alt="dashboardwhite" />,
+      iconHover:<DashboardPurple/>,
       activeIcon: <img src={Dashboard} alt="dashboard" />,
     },
     {
       identifier: "Inventory",
       title: "Inventory",
       path: "/inventory",
-      icon: <img src={Dashboard} alt="inventory" />,
-      activeIcon: <img src={Dashboard} alt="inventory" />,
-    
+      icon:<InventoryIcon/> ,
+      activeIcon:<InventoryIcon/>,
+      iconHover:<InventoryIconHover/>,
+      subNavArrowUp:<ArrowUp/>,
+      subNavArrowDown:<ArrowDown/>,
       subNav: [
         {
           subnavigation: true,
@@ -23,19 +26,17 @@ const SideBarData = [
           title: "Add Inventory",
           path: "/inventory/add",
           icon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
-          activeIcon: (
-            <img width="20px" height="20px" src={Dashboard} alt="addIcon" />
-          ),
+          iconHover: <DashboardPurple/>,
+          activeIcon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
         },
         {
           subnavigation: true,
           identifier: "MyList",
           title: "My List",
           path: "/inventory",
-          icon: <img width="20px" height="20px" src={Dashboard} alt="list" />,
-          activeIcon: (
-            <img width="20px" height="20px" src={Dashboard} alt="list" />
-          ),
+          icon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
+          iconHover: <DashboardPurple/>,
+          activeIcon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
         },
       ],
     },

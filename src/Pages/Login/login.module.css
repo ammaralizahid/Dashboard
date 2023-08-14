@@ -25,7 +25,7 @@ text-decoration: none !important;
 .forgetPass:hover{
 cursor: pointer;
 font-family: cursive;
-color: #475BE8;
+color: #8834ff;
 animation: pop-up 1s ease-in-out infinite;
 text-decoration: none !important;
 }

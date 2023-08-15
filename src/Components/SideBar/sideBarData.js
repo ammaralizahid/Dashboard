@@ -8,6 +8,7 @@ const SideBarData = [
       icon: <img src={Dashboard} alt="dashboard" />,
       iconHover: <img src={DashboardWhite} alt="dashboardwhite" />,
       activeIcon: <img src={Dashboard} alt="dashboard" />,
+      subNav:[],
     },
     {
       identifier: "Inventory",
@@ -15,7 +16,7 @@ const SideBarData = [
       path: "/inventory",
       icon: <img src={Dashboard} alt="inventory" />,
       activeIcon: <img src={Dashboard} alt="inventory" />,
-    
+      iconHover: <img src={DashboardWhite} alt="dashboardwhite" />,
       subNav: [
         {
           subnavigation: true,

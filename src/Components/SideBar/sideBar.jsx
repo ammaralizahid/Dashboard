@@ -33,17 +33,9 @@ export default function SideBar() {
             
             {hover.value && hover.index === index ? i.iconHover : i.icon}
             {i.title} 
-            {/* {i.subNav?.length > 0 &&
-              i.subNav.map((subNavItem, subIndex) => (
-                <>{subNavItem.title}</>
-              ))} */}
-            {/* <div
-              className={`${style.sideBarContent}`}
-              onClick={() => setActiveNav({ value: !activeNav.value, index: index })}
-            > */}
               {activeNav.value && activeNav.index === index ? (
                 <>{i.subNavArrowDown}</>
-              ) : (
+                              ) : (
                 <>{i.subNavArrowUp}</>
               )}
             {/* </div> */}

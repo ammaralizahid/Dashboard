@@ -1,14 +1,15 @@
-import Dashboard from '../../assets/svg/Dashboard.svg'
+import DashboardIcon from '../../assets/svg/Dashboard.svg'
 import {DashboardPurple,InventoryIcon,
   InventoryIconHover,ArrowUp,ArrowDown} from '../../assets/svg/svg'
+  import Dashboard from '../../Pages/Dashboard/dashboard';
 const SideBarData = [
     {
-      identifier: "Dashboard",
+      identifier:<Dashboard/>,
       title: "Dashboard",
       path: "/dashboard",
-      icon: <img src={Dashboard} alt="dashboard" />,
+      icon: <img src={DashboardIcon} alt="dashboard" />,
       iconHover:<DashboardPurple/>,
-      activeIcon: <img src={Dashboard} alt="dashboard" />,
+      activeIcon: <img src={DashboardIcon} alt="dashboard" />,
     },
     {
       identifier: "Inventory",
@@ -25,18 +26,18 @@ const SideBarData = [
           identifier: "AddInventory",
           title: "Add Inventory",
           path: "/inventory/add",
-          icon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
+          icon: <img width="20px" height="20px" src={DashboardIcon} alt="addIcon" />,
           iconHover: <DashboardPurple/>,
-          activeIcon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
+          activeIcon: <img width="20px" height="20px" src={DashboardIcon} alt="addIcon" />,
         },
         {
           subnavigation: true,
           identifier: "MyList",
           title: "My List",
           path: "/inventory",
-          icon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
+          icon: <img width="20px" height="20px" src={DashboardIcon} alt="addIcon" />,
           iconHover: <DashboardPurple/>,
-          activeIcon: <img width="20px" height="20px" src={Dashboard} alt="addIcon" />,
+          activeIcon: <img width="20px" height="20px" src={DashboardIcon} alt="addIcon" />,
         },
       ],
     },
